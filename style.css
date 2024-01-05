@@ -108,13 +108,21 @@ header{
 }
 .sale-item{
     width: 260px;
-
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.sale-item:hover{
+    width: 360px;
+    padding: 0 35px 35px 35px;
 }
 .category-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 /* footer section  */
 .footer-container{
     background-color: #FAFBFC;
