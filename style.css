@@ -114,8 +114,8 @@ header{
     transition-delay: 0s;
 }
 .sale-item:hover{
-    width: 360px;
-    padding: 0 35px 35px 35px;
+    width: 290px;
+    /* padding: 0 35px 35px 35px; */
 }
 .category-items{
     display: flex;
